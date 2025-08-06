@@ -18,6 +18,12 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        
+        // Medical theme variants
+        medical: "gradient-medical text-white shadow-medical hover:scale-105 transition-all duration-300",
+        emergency: "gradient-emergency text-white shadow-emergency hover:scale-105 transition-all duration-300 animate-pulse",
+        health: "gradient-health text-white shadow-soft hover:scale-105 transition-all duration-300",
+        hero: "gradient-hero text-white shadow-medical hover:shadow-lg hover:scale-105 transition-all duration-500 text-lg font-semibold",
       },
       size: {
         default: "h-10 px-4 py-2",

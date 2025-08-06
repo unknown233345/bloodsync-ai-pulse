@@ -24,6 +24,27 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				// Medical theme colors
+				medical: {
+					primary: 'hsl(var(--medical-primary))',
+					'primary-light': 'hsl(var(--medical-primary-light))',
+					'primary-dark': 'hsl(var(--medical-primary-dark))',
+				},
+				blood: {
+					primary: 'hsl(var(--blood-primary))',
+					secondary: 'hsl(var(--blood-secondary))',
+				},
+				health: {
+					green: 'hsl(var(--health-green))',
+					'green-light': 'hsl(var(--health-green-light))',
+				},
+				emergency: 'hsl(var(--emergency))',
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					light: 'hsl(var(--warning-light))',
+				},
+				
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
